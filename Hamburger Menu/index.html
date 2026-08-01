@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Animated Navbar</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="logo">CWPS07</div>
+
+  <ul class="nav-links">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Features</a></li>
+    <li><a href="#">Pricing</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+
+  <a href="#" class="cta">Get Started</a>
+
+  <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#"><span>01</span>Home</a>
+  <a href="#"><span>02</span>Features</a>
+  <a href="#"><span>03</span>Pricing</a>
+  <a href="#"><span>04</span>About</a>
+  <a href="#"><span>05</span>Contact</a>
+</div>
+
+<div class="page">
+  <h1>Resize the window to see the mobile menu</h1>
+  <p>Shrink the browser width (or view on a phone) to swap the desktop links for the hamburger button. Tap it to see the icon morph into an X while a full-screen menu reveals itself from the corner, with each link animating in with its own stagger.</p>
+  <p>Tap the hamburger again to close — the same circular reveal collapses back into the button, and the icon morphs back from an X to three lines.</p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
