@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fireworks</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="c"></canvas>
+<div id="hint">CLICK ANYWHERE TO LAUNCH</div>
+
+<div id="ui">
+  <div class="ctrl">
+    <label>Sparks</label>
+    <input type="range" id="r-sparks" min="40" max="220" value="110" step="10">
+    <span id="v-sparks">110</span>
+  </div>
+  <div class="sep"></div>
+  <div class="ctrl">
+    <label>Gravity</label>
+    <input type="range" id="r-grav" min="1" max="10" value="3" step="1">
+    <span id="v-grav">3</span>
+  </div>
+  <div class="sep"></div>
+  <div class="ctrl">
+    <label>Fade</label>
+    <input type="range" id="r-fade" min="1" max="10" value="4" step="1">
+    <span id="v-fade">4</span>
+  </div>
+  <div class="sep"></div>
+  <button id="btn-auto" class="active">Auto ✦</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
